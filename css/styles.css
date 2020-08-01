@@ -327,6 +327,13 @@ svg{
         border: 1px solid rgba(255, 255, 255, .15);
     }
 
+    input ~ .nav > ul > li > a {
+        -moz-transition: all .3s ease-in;
+        -o-transition: all .3s ease-in;
+        -webkit-transition: all .3s ease-in;
+        transition: all .3s ease-in;
+    }
+
     input:checked ~ .nav{
         top:0;
         padding-top: 120px;
