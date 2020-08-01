@@ -316,8 +316,8 @@ svg{
         background-color: #ffffff;
         padding: 100px 0px 0px 0px;
         overflow: auto;
-        transition: 1s;
-        transition-delay: .5s;
+        transition: 2s;
+        transition-delay: .25s;
     }
 
     input ~ .nav > ul > li > .link:hover {
@@ -337,7 +337,6 @@ svg{
         height: 100%;
         transition-delay: 0s;
     }
-
 
 
     .header-list{
