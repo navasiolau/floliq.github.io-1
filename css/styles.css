@@ -276,7 +276,6 @@ svg{
 
     .link:hover{
         background-color:#E7BD29;
-        transition: all 0s;
         letter-spacing: 2px;
         color:#333;
         border: 1px solid rgba(255, 255, 255, .15);
@@ -335,11 +334,6 @@ svg{
         transition-delay: .5s;
     }
 
-    input ~ .nav > ul > li > a {
-        opacity: 0;
-        transition: .5s;
-        transition-delay: 0s;
-    }
 
    input:checked ~ .nav{
         top:0;
@@ -352,10 +346,6 @@ svg{
         transition-delay: 0s;
     }
 
-    input:checked ~ .nav > ul > li > a {
-        opacity: 1;
-        transition-delay: 1s;
-    }
 
 
     .header-list{
